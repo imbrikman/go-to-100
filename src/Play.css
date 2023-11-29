@@ -1,0 +1,87 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: hsl(67, 88%, 73%);
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  border: 0px solid #4caf50;
+}
+
+.login-container {
+  margin: 10px;
+  padding: 20px;
+}
+
+.title {
+  color: #333;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center; 
+}
+
+.background {
+  border: 2px solid #4caf50;
+  border-radius: 5px;
+  background-color: #b9d48d;
+  text-align: center; 
+}
+
+.message {
+  margin-bottom: 10px;
+  text-align: center; 
+}
+
+.button-container {
+  margin: 10px;
+  height: 150px;
+  border: 1px solid #4caf50;
+  border-radius: 5px;
+  background-color: #8dd490;
+  text-align: center; 
+}
+
+.player-container {
+  display:grid;
+  flex-direction: column;
+  align-items: center;
+  height: 200px; 
+}
+
+.button {
+  padding: 8px;
+  margin: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  justify-content: center;
+
+
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+#player2-button {
+  background-color: #2196f3;
+  color: white;
+}
+
+#player2-button:hover {
+  background-color: #1e87f0;
+}
+li {
+border: #333 solid 2px;
+text-align: right;
+}
+.heppy {
+  display: grid;
+  border: #333 solid 2px;
+  width: 160px;
+  align-items: center;
+  text-align: center; 
+
+}
